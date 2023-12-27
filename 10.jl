@@ -150,3 +150,4 @@ function chess_field_N!(robot, N)
 end
 
 chess_field_N!(r, 2)
+
