@@ -10,8 +10,8 @@ include("functions.jl")
 
 function mark_cross!(robot)::Nothing
     putmarker!(robot)
-    for side in 0:3
-        line_markings!(robot, HorizonSide(side))
+    for side in 0:3 #(Nord, West, South, East)
+        line_markings!(robot, HorizonSide(side)) #side)
     end
 end
 
